@@ -1,0 +1,120 @@
+[ {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.4.0",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "B. subtilis",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "color" : "rgb(0,0,0)",
+      "border-width" : 5.0,
+      "border-opacity" : 1.0,
+      "background-opacity" : 1.0,
+      "height" : 35.0,
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "text-opacity" : 1.0,
+      "width" : 75.0,
+      "shape" : "roundrectangle",
+      "border-color" : "rgb(142,42,49)",
+      "font-size" : 12,
+      "background-color" : "rgb(211,63,73)",
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "content" : "data(name)"
+    }
+  }, {
+    "selector" : "node[Outdegree = 0]",
+    "css" : {
+      "background-color" : "rgb(221,216,196)"
+    }
+  }, {
+    "selector" : "node[Outdegree = 0]",
+    "css" : {
+      "border-color" : "rgb(147,144,131)"
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "font-family" : "Dialog.plain",
+      "font-weight" : "normal",
+      "source-arrow-color" : "rgb(64,64,64)",
+      "source-arrow-shape" : "none",
+      "line-style" : "solid",
+      "target-arrow-shape" : "triangle",
+      "color" : "rgb(0,0,0)",
+      "text-opacity" : 1.0,
+      "width" : 2.0,
+      "font-size" : 10,
+      "line-color" : "rgb(64,64,64)",
+      "content" : "",
+      "opacity" : 1.0,
+      "target-arrow-color" : "rgb(64,64,64)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'questionable+']",
+    "css" : {
+      "line-color" : "rgb(91,186,111)",
+      "target-arrow-color" : "rgb(91,186,111)",
+      "source-arrow-color" : "rgb(91,186,111)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'regulates']",
+    "css" : {
+      "line-color" : "rgb(102,102,0)",
+      "target-arrow-color" : "rgb(102,102,0)",
+      "source-arrow-color" : "rgb(102,102,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'questionable-']",
+    "css" : {
+      "line-color" : "rgb(68,157,209)",
+      "target-arrow-color" : "rgb(68,157,209)",
+      "source-arrow-color" : "rgb(68,157,209)"
+    }
+  }, {
+    "selector" : "edge[interaction = '+']",
+    "css" : {
+      "line-color" : "rgb(0,122,0)",
+      "target-arrow-color" : "rgb(0,122,0)",
+      "source-arrow-color" : "rgb(0,122,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = '-']",
+    "css" : {
+      "line-color" : "rgb(0,0,155)",
+      "target-arrow-color" : "rgb(0,0,155)",
+      "source-arrow-color" : "rgb(0,0,155)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'questionable+']",
+    "css" : {
+      "line-color" : "rgb(0,204,51)"
+    }
+  }, {
+    "selector" : "edge[interaction = 'questionable-']",
+    "css" : {
+      "line-color" : "rgb(102,153,255)"
+    }
+  }, {
+    "selector" : "edge[interaction = '+']",
+    "css" : {
+      "line-color" : "rgb(0,102,0)"
+    }
+  }, {
+    "selector" : "edge[interaction = '-']",
+    "css" : {
+      "line-color" : "rgb(0,0,153)"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+}]
